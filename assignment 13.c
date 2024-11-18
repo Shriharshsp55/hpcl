@@ -38,8 +38,6 @@ int main() {
 
     cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
     cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
-
-    // ... (rest of the code)
 }
 cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
 cudaMemcpy(d_D, h_D, size, cudaMemcpyHostToDevice);
